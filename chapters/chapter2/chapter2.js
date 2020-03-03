@@ -11,7 +11,9 @@ const conf = require("../config");
  *
  */
 function getYourOwnTeam() {
-  return axios.toto;
+  return axios.get(conf.baseUrl + "/teams/" + conf.clientId, {
+    headers: { clientId: conf.clientId }
+  });
 }
 
 module.exports = {
