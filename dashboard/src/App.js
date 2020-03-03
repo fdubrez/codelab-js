@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 const chapters = [1, 2, 3, 4, 5].map(x => "chapter" + x);
 
-const API_URL = "http://localhost:8080/api";
+const API_URL = "http://192.168.43.223:8080/api";
 
 export default function App() {
   return (
@@ -126,7 +126,11 @@ class Dashboard extends React.Component {
                   <tr>
                     <td>
                       <img
-                        style={{ borderRadius: "50%", verticalAlign: "middle" }}
+                        style={{
+                          borderRadius: "50%",
+                          verticalAlign: "middle",
+                          maxHeight: "5rem"
+                        }}
                         src={team.avatarUrl}
                         alt="avatar"
                       />
