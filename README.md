@@ -3,6 +3,13 @@ codelab-js
 
 Coding Dojo en JS pour s'initier au Javascript en se tirant la bourre entre collègues.
 
+## Versions de Node
+
+Pour éviter de galérer avec les versions de node.
+
+- Installer [nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Une version qui marche à tout les coups est indiquée dans le fichier `.nvmrc` à la racine du projet. Pour l'installer lancer la commande `nvm install && nvm use` à la racine du projet. Installe la version `v10.15.2` normalement.
+
 ## Déroulement
 
 *  Distribuer à chaque participant un des papiers avec un UUID dessus (ces UUID sont hard codés dans le TP donc c'est bien ceux la qu'il faut).
