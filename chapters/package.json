@@ -1,0 +1,16 @@
+{
+  "name": "chapters",
+  "version": "1.0.0",
+  "description": "",
+  "main": "config.js",
+  "scripts": {
+    "test": "mocha './chapter'$CHAPTER'/test'$CHAPTER'.js'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "mocha": "^7.0.1"
+  }
+}

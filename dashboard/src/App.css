@@ -1,0 +1,41 @@
+body {
+  background-image: url("./wallpaper.jpg");
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  /*background-color: #282c34;*/
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.box {
+  max-width: 900px;
+  padding: 32px;
+  background: rgba(20,20,20,.7);
+  text-align: center;
+  box-shadow: 0 8px 10px -5px rgba(0,0,0,.2), 0 16px 24px 2px rgba(0,0,0,.14), 0 6px 30px 5px rgba(0,0,0,.12);
+}
+
+#nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 2rem;
+}
